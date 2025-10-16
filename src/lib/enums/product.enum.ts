@@ -1,0 +1,35 @@
+export enum BookFormat {
+  PAPERBACK = "PAPERBACK",
+  EBOOK = "EBOOK",
+  AUDIOBOOK = "AUDIOBOOK",
+}
+
+export enum BookCondition {
+  NEW = "NEW",
+  GOOD = "GOOD",
+  ACCEPTABLE = "ACCEPTABLE",
+}
+
+export enum BookStatus {
+  PAUSE = "PAUSE",
+  PROCESS = "PROCESS",
+  DELETE = "DELETE",
+}
+
+export enum BookGenre {
+  FICTION = "FICTION",
+  NON_FICTION = "NON_FICTION",
+  SCIENCE_FICTION = "SCIENCE_FICTION",
+  FANTASY = "FANTASY",
+  MYSTERY = "MYSTERY",
+  ROMANCE = "ROMANCE",
+  HORROR = "HORROR",
+  BIOGRAPHY = "BIOGRAPHY",
+  HISTORY = "HISTORY",
+  SELF_HELP = "SELF_HELP",
+  CHILDREN = "CHILDREN",
+  YOUNG_ADULT = "YOUNG_ADULT",
+  POETRY = "POETRY",
+  DRAMA = "DRAMA",
+  OTHER = "OTHER",
+}
