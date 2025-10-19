@@ -1,5 +1,5 @@
 {
-  "name": "kiki-react",
+  "name": "bookland-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -46,6 +46,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "start:prod": "serve -s build -l 80",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
